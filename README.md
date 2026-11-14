@@ -8,7 +8,7 @@ A file store for email artwork, logos and reusable media. Browse and select file
 - `email/business/`: a business signature template using website-hosted artwork.
 - `logos/<collection>/`: logo originals, including the supplied Gemba convenience copies.
 
-Email folders use neutral labels. The real account mapping is kept outside this public repository. The public business template uses `{{EMAIL}}`; insert the actual address only in a private working copy or the mail application's signature editor. The business email image remains hosted by the website and is not duplicated in an email folder here.
+Email folders use neutral labels. The real account mapping is kept outside this public repository. The public business template uses `{{EMAIL}}`; insert the actual address only in a private working copy or the mail application's signature editor. The business logo remains hosted by the website and is not duplicated in an email folder here.
 
 Add `images/<collection>/` or another media folder when needed. Uploading a new file requires no catalog, manifest, preview generation or frontend update.
 
