@@ -1,6 +1,8 @@
-# Personal email signatures
+# Personal assets
 
-Approved personal artwork and reusable email signature for Paul Armstrong.
+A shared home for Paul Armstrong’s personal signatures, media and assets for small personal projects that do not need a repository of their own.
+
+The approved email signature is included below. Other reusable personal images, media and small-project files can live here too.
 
 ## Stable HTTPS images
 
@@ -11,7 +13,7 @@ Approved personal artwork and reusable email signature for Paul Armstrong.
 
 Keep these approved v1 files available unchanged. Put future artwork under a new version directory so existing emails retain their original images. The repository and GitHub Pages site must remain public for recipients to load these URLs. Some email apps block external images until the recipient permits them.
 
-## Template
+## Email signature
 
 - [Personal signature](templates/personal.html) uses the approved footer image, with Paul Armstrong and “Let’s keep in touch.”
 - [Installation notes](SETUP.txt).
