@@ -1,9 +1,7 @@
 # Logos
 
-Original logo files are grouped by collection. Choose **Logos** in the library, select a collection and select the artwork to preview it, download the original or copy its public image URL.
+One collection folder per brand or set of initials. All formats live together, with descriptive names, actual raster dimensions and a design-version suffix. SVG filenames omit pixel dimensions.
 
-The current collections are Armstrong, Invictus, Kaizen King, Reid and Gemba. Additional collections and styles can be added later. Original files keep their supplied bytes; previews are separate compact PNGs within the same collection.
+Use GitHub's file browser to select a file, view it or download it. To use it in email or another application, use its direct public HTTPS file URL. New files become available after publication without updating a catalog or website frontend.
 
-The Gemba collection contains convenience copies of the supplied ten exports. It does not replace the active website or the brand library's master artwork.
-
-New logo entries use `kind: "logo"` in `catalog.json`. Other media types can use another kind and their own folder; the library generates its type filters from the available records. Keep published originals stable and use a new filename or version when replacing a released design.
+The Gemba files are convenience copies of the supplied exports. The website's active Gemba master artwork is retained separately.
