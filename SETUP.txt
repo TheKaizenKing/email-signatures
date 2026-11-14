@@ -1,26 +1,20 @@
-EMAIL SIGNATURES — APPROVED V1
+PERSONAL EMAIL SIGNATURE — APPROVED V1
 
 PERMANENT HTTPS IMAGE URLS
-Personal (display 288 x 80 px):
+Personal footer (display 288 x 80 px):
 https://thekaizenking.github.io/email-signatures/assets/v1/personal-footer.png
 
-Gemba identity (display 288 x 76 px):
-https://thekaizenking.github.io/email-signatures/assets/v1/business-identity.png
+Approved transparent PA monogram (optional separate artwork):
+https://thekaizenking.github.io/email-signatures/assets/v1/selected-a-monogram.png
 
-Gemba logo (display 76 x 76 px):
-https://thekaizenking.github.io/email-signatures/assets/v1/gemba-signature-tile.png
+Use the HTTPS image source in the signature HTML or the editor’s image URL field. Do not use a local file path, a private GitHub link or a temporary download link. Keep these v1 URLs available unchanged; publish later revisions under v2 or another new version.
 
-Use these HTTPS image sources in the signature HTML or the editor’s image URL field. Do not use a local file path, a private GitHub link or a temporary download link. Images must remain available at these v1 URLs; publish later revisions under v2 or another new version.
-
-PERSONAL
-Open templates/personal.html in a browser, copy its rendered signature and paste into the personal account’s signature editor. It contains Paul Armstrong and “Let’s keep in touch.” with the approved A monogram.
-
-GEMBA
-The reusable templates/gemba-business.html uses {{NAME}}, {{ROLE}} and two {{EMAIL}} placeholders. Replace those in a copy before installation, including the mailto destination. It uses the Gemba logo tile and editable text with Urbanist/Nunito Sans declarations plus Arial/Helvetica fallbacks. For Paul’s exact approved type, use the Gemba identity image at 288 x 76 px above the same live contact links and 3 px #79259B divider.
+INSTALL THE PERSONAL FOOTER
+Open https://thekaizenking.github.io/email-signatures/templates/personal.html in a browser, select its rendered footer, copy it and paste into the personal account’s signature editor. Copy the rendered footer, not the HTML source. The image contains Paul Armstrong and “Let’s keep in touch.” with the approved A monogram. It displays at 288 x 80 px and has no displayed email address.
 
 APP SETTINGS
 Hotmail/Outlook.com: Settings > Accounts > Signatures.
 Gmail: Settings > See all settings > General > Signature.
 Mailbird Classic: Menu > Settings > Identities > edit the correct sending identity.
 
-Choose the correct sending account, save, select appropriate new-message/reply defaults and inspect a new unsent message. Check image size and live links. Recipients may need to allow external images; this is controlled by their email app.
+Choose the correct personal sending account, save, select the appropriate new-message/reply defaults and inspect a new unsent message. Check the image size and appearance. Recipients may need to allow external images; this is controlled by their email app.
