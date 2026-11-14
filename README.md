@@ -1,34 +1,29 @@
-# Personal media library
+# Media assets
 
-A shared home for Paul Armstrong’s personal media, signatures, logos and assets for small projects that do not need a repository of their own.
+A file store for email artwork, logos and reusable media. Browse and select files using GitHub's folder and image views.
 
-[Browse the media library](https://thekaizenking.github.io/email-signatures/)
+## Folders
 
-The library provides previews, original-file downloads and copyable public HTTPS links. The current collections are examples, not a limit on future personal projects or media types.
+- `email/personal/`: the personal signature and its versioned image.
+- `email/business/`: a business signature template using website-hosted artwork.
+- `logos/<collection>/`: logo originals, including the supplied Gemba convenience copies.
 
-## Collections
+Email folders use neutral labels. The real account mapping is kept outside this public repository. The public business template uses `{{EMAIL}}`; insert the actual address only in a private working copy or the mail application's signature editor. The business email image remains hosted by the website and is not duplicated in an email folder here.
 
-- **Email signatures:** the approved personal footer and PA artwork.
-- **Armstrong:** supplied Armstrong artwork.
-- **Invictus:** PNG and SVG logo variants, emblems and app icons.
-- **Kaizen King:** supplied white artwork in three resolutions.
-- **Reid:** the RA artwork.
+Add `images/<collection>/` or another media folder when needed. Uploading a new file requires no catalog, manifest, preview generation or frontend update.
 
-The import adds 35 supplied personal files. Original bytes and dimensions are preserved. Small PNG previews keep the library quick to browse, including the very large Kaizen King originals. `catalog.json` records the original paths, formats, dimensions, sizes and SHA-256 hashes.
+## Naming
 
-## Stable email images
+Use lowercase descriptive filenames with hyphens:
 
-Existing email images and the signature template keep their current paths and contents:
+`<name>[-<style>][-<colour-or-variant>][-<width>x<height>]-v<version>.<ext>`
 
-- https://thekaizenking.github.io/email-signatures/assets/v1/personal-footer.png
-- https://thekaizenking.github.io/email-signatures/assets/v1/selected-a-monogram.png
-- [Personal signature HTML](templates/personal.html)
-- [Signature setup notes](SETUP.txt)
+For logos, include the brand or initials. Include useful descriptors that identify actual variants; retain supplied `colour`/`colour-light` distinctions rather than guessing colours. `gold-background` identifies the Invictus app icon with that background. Use actual dimensions for raster files, omit dimensions for SVG, and use a new version instead of overwriting released artwork.
 
-The repository keeps its existing name to preserve these published image URLs, including images in emails already sent. The broader library does not require existing email account settings to change. Keep released artwork URLs available; use a new filename or version for later replacements.
+Examples: `gemba-logo-3d-white-1200x1200-v1.png`, `kaizen-king-logo-white-2500x2500-v1.png`, `invictus-horizontal-colour-v1.svg`.
 
-## Adding media
+## Direct file serving
 
-Add original files under `media/<collection>/`, provide a compact preview under `previews/<collection>/`, and add the record to `catalog.json`. Preserve supplied originals; gallery previews should be no larger than 512 pixels on their longest side. SVG originals remain available as vector downloads.
+GitHub Pages serves direct HTTPS files under `https://thekaizenking.github.io/media-assets/`. There is no custom frontend or application. The empty `.nojekyll` file bypasses Jekyll processing.
 
-Run `node scripts/build-catalog.mjs` to regenerate the static index after changing the catalog. The generator uses standard Node.js modules and requires no packages. The published library has no framework, external font service or runtime dependency. Direct file links continue to work independently of the index.
+Previously published paths stay available separately at the legacy host after the rename. The original repository's history moves with the renamed repository; the compatibility repository at the old name is separate.
